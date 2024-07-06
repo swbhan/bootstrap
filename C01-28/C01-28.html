@@ -40,9 +40,11 @@
     </div>
     <div class="d-grid gap-2 bg-light my-5 p-5 shadow">
       <button class="btn btn-outline-secondary mx-auto w-50" type="button">
-        Button
+        Secondary action
       </button>
-      <button class="btn btn-primary w-50 mx-auto" type="button">Button</button>
+      <button class="btn btn-primary w-50 mx-auto" type="button">
+        Primary action
+      </button>
     </div>
     <div
       class="container-fluid d-flex justify-content-center bg-light p-5 shadow"
@@ -99,11 +101,16 @@
         Loading...
       </button>
     </div>
-    <div class="container-fluid bg-light p-5 my-5 shadow">
-      <div class="d-flex justify-content-center">
+    <div class="container-fluid bg-light p-5 my-5 shadow data">
+      <div class="d-flex justify-content-center mb-2">
         <button
           type="button"
-          class="btn btn-primary bg-primary btn-close p-2 rounded-circle"
+          class="bg-primary btn-close p-2 rounded-circle mx-4"
+          aria-label="Close"
+        ></button>
+        <button
+          type="button"
+          class="border border-1 border-primary btn-close p-2 rounded-circle mx-4"
           aria-label="Close"
         ></button>
       </div>
@@ -111,7 +118,12 @@
         <div class="d-flex justify-content-center">
           <button
             type="button"
-            class="btn btn-primary bg-primary btn-close p-3 rounded-circle"
+            class="bg-primary btn-close p-3 rounded-circle mx-3"
+            aria-label="Close"
+          ></button>
+          <button
+            type="button"
+            class="border border-1 border-primary btn-close p-3 rounded-circle mx-3"
             aria-label="Close"
           ></button>
         </div>
